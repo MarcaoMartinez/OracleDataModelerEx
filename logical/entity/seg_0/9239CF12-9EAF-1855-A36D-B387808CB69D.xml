@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9239CF12-9EAF-1855-A36D-B387808CB69D" name="T_RT_FILIAL">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:02:47 UTC</createdTime>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_EMPRESA" id="89AB7F26-3083-561D-9D02-07E2E5EF7876">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:02:47 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do endereço do cliente que é a chave primária. Seu conteúdo será incremental e gerenciado pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do endereço do cliente que é a chave primária. Seu conteúdo será incremental e gerenciado pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO" id="E1664951-4100-5343-D1BE-1E9B2BB06FC0">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:18:18 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária dos telefoes dos clientes. Esse conteúdo será preenchido automaticamente pela aplicação.]]></comment>
+<generatorID>C0875AE4-52D8-F670-8121-10729B446DC8</generatorID>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<referedAttribute>CAE2AB8A-BEC2-CDC8-9DFE-C23AED0AC3FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="42ACDFBA-2D8B-77E3-6651-F369A343AA55">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:18:18 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do Cliente. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>C0875AE4-52D8-F670-8121-10729B446DC8</generatorID>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<referedAttribute>5FC9B90D-F168-4CFB-171E-328A7BE57F65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_RAZAO_SOCIAL" id="23C6A2B9-F171-618B-59E2-B6D7224354CE">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:02:47 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o endereço do cliente. Seu conteúdo é obrigatório e deve ser cadastrado no padrão InitCap.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o endereço do cliente. Seu conteúdo é obrigatório e deve ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ENDERECO" id="E285408C-3629-60DD-267F-51391E630366">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:03:10 UTC</createdTime>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FANTASIA" id="46391732-A7C9-9DF8-B7F6-6B6452C9B8B4">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:02:47 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o munícipio do endereço do cliente. Seu conteúdo é obrigatório e deve ser cadastrado no padrão InitCap.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o munícipio do endereço do cliente. Seu conteúdo é obrigatório e deve ser cadastrado no padrão InitCap.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="5E32D101-B01C-EB2B-F49B-B40D370200B3">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:03:11 UTC</createdTime>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NOTA_VENDA" id="79FA43C5-72A5-14CE-C030-9473E6F6534B">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:18:18 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do endereço do cliente que é a chave primária. Seu conteúdo será incremental e gerenciado pela aplicação.]]></comment>
+<generatorID>C0875AE4-52D8-F670-8121-10729B446DC8</generatorID>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<referedAttribute>30B1E32A-9A5B-FEE3-8AE3-9D22938E692A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E96FEBEC-1931-6827-A97B-333B8D236CC8" name="PK_RT_CLIENTE_ENDERECO">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:02:47 UTC</createdTime>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89AB7F26-3083-561D-9D02-07E2E5EF7876</attributeRef>
+<attributeRef>79FA43C5-72A5-14CE-C030-9473E6F6534B</attributeRef>
+<attributeRef>E1664951-4100-5343-D1BE-1E9B2BB06FC0</attributeRef>
+<attributeRef>42ACDFBA-2D8B-77E3-6651-F369A343AA55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

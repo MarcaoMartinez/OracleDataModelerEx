@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pedido.filial" directorySegmentName="seg_0" id="C0875AE4-52D8-F670-8121-10729B446DC8">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:18:18 UTC</createdTime>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<sourcePk>FA64C37F-E621-742F-74CF-016A9033E1CF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E445735C-7215-FCC7-57EA-5459A61530B8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9239CF12-9EAF-1855-A36D-B387808CB69D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

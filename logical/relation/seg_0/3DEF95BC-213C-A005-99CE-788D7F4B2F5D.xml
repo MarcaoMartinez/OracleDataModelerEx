@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="produto.pedido" directorySegmentName="seg_0" id="3DEF95BC-213C-A005-99CE-788D7F4B2F5D">
+<createdBy>marcomartinez</createdBy>
+<createdTime>2022-03-22 20:18:04 UTC</createdTime>
+<ownerDesignName>EXERCICIO1</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<sourcePk>8C3BFEC9-1F35-41F7-730C-3BAE37F505FE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C9CF3B16-A1DE-76C6-4AA8-45BB9D2CEDC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E445735C-7215-FCC7-57EA-5459A61530B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
